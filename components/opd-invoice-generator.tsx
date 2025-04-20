@@ -202,9 +202,9 @@ export default function OpdInvoiceGenerator({ registration, doctor }: OpdInvoice
                 <p><span className="text-gray-500">Time:</span> {formatTime(registration.appointmentTime)}</p>
                 <p><span className="text-gray-500">Department:</span> {registration.department}</p>
                 <p><span className="text-gray-500">Doctor:</span> {doctor?.name || "Not assigned"}</p>
-                {doctor?.qualification && (
-                  <p><span className="text-gray-500">Qualification:</span> {doctor.qualification}</p>
-                )}
+               {/* {doctor?.qualification && (
+  <p><span className="text-gray-500">Qualification:</span> {doctor.qualification}</p>
+)} */}
               </div>
             </div>
           </div>
