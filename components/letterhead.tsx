@@ -27,6 +27,7 @@ export default function Letterhead() {
           <p>Phone: +91 99152-15406</p>
           <p>Add: Khehra Road, Dhianpur (Gurdaspur)</p>
           <p>Email: shribawalalhospital1@gmail.com</p>
+          
         </div>
       </div>
     </div>
